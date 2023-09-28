@@ -1,0 +1,189 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: hsl(229, 57%, 11%);
+    font-family: 'Raleway', sans-serif;    
+    @media (max-width:375px) {
+        background: url(./images/bg-mobile.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 20px;
+        
+    }
+}
+
+
+.container{
+    display: flex;
+    /* padding-left: 150px; */
+    padding-top: 150px;
+    /* margin: 0 auto; */
+    @media (max-width:375px) {
+        display: block;
+        padding: 15px;
+        padding-top: 20px;
+        height: fit-content;
+        margin: 0 auto;
+        
+    }
+}
+
+.semi-card{
+    background:  hsl(228, 56%, 26%);
+    width: 310px;
+    height: 160px;
+    padding: 30px;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-right: 0;
+    border-top-right-radius: 100px;
+    @media (max-width:375px) {
+        width: 300px;
+        height: 190px;
+        margin-left: 20px;
+        
+    }
+}
+
+.semi-card .docs{
+    margin-top: 30px;
+}
+
+
+.semi-card .docs img{
+    background-color: hsl(229, 57%, 11%);
+    padding: 10px;
+    margin-right: 5px;
+    border-radius: 5px;
+    width: 37px;
+    height: 35px;
+    
+    @media (max-width:375px) {
+        width: 45px;
+        height:  45px;
+        padding: 15px;
+        margin-right: 15px;
+    }
+}
+
+.container .card{
+    background: hsl(228, 56%, 26%);
+    width: 400px;
+    height: 110px;
+    margin: 0 auto;
+    margin-left: 20px;
+    margin-top: 50px;
+    padding:  20px ;
+    padding-bottom:10px ;
+    border-radius: 10px;
+    color: hsl(255,100%,100%);
+    @media (max-width:375px) {
+        width: 300px;
+        border-radius: 7px;
+        padding: 20px;
+        height: 140px;
+        margin-top: 15px;
+        
+    }
+}
+
+
+
+.white-mini-card{
+    width: 115px;
+    background-color: hsl(255,100%,100%);
+    height: 50px;
+    padding: 12px;
+    position: relative;
+    left: 890px;
+    bottom:  140px;
+    border-radius: 10px;
+    @media (max-width:375px) {
+        position: relative;
+        left: 100px;
+        bottom: 60px;
+        padding: 20px;
+        width: 155px;
+        height: 70px;
+    }
+} 
+.white-mini-card h2{
+    color:  hsl(229, 57%, 11%);
+    font-size: 28px;
+    font-weight: 800;
+    @media (max-width:375px) {
+        font-size: 30px;
+        font-weight: 800;
+        padding-left:10px;
+    }
+} 
+.white-mini-card h2 span{
+    color: hsl(229, 7%, 55%);
+    font-weight: 600;
+    font-size: 10px;
+    @media (max-width:375px) {
+        
+    }
+}
+.card h2 span{
+    font-weight: 600;
+}
+.card h2{
+    margin-bottom: 10px;
+    font-size: 12px;
+    font-weight: 300;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    @media (max-width:375px) {
+        font-size: 14px;
+    }
+}
+.card .down .start{
+    margin-right: 245px;
+    @media (max-width:375px) {
+        margin-right: 130px;
+        margin-left: 10px;
+    }
+}
+.card .down h3{
+    width: 63px;
+    font-size: 12px;
+    @media (max-width:375px) {
+        width: 60px;
+        margin-top: 10px;
+        font-size: 14px;
+    }
+}
+.card .down{
+    width:  fit-content;
+    display: flex;
+}
+
+.card .hr{
+    border: 1px solid transparent;
+    border-radius: 20px;
+    padding: 4px;
+    width: 100%;
+    height: 4px;
+    margin-bottom: 10px;
+    background-color:  hsl(335, 100%, 65%);
+    background-image: linear-gradient( hsl(6, 100%, 80%) to hsl(335, 100%, 65%));
+    
+    @media (max-width:375px) {
+        height: 14px;
+    }
+}
+
+    .attribution { 
+        font-size: 11px; 
+        text-align: center; 
+    }
+    .attribution a { 
+        color: hsl(228, 45%, 44%); 
+    }
